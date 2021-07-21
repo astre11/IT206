@@ -5,7 +5,7 @@ h1 {
     background-color: rgb(119, 119, 253);
 }
 .b {
-    background-color: rgb(83, 177, 83);
+    background-color: rgb(94, 197, 94);
 }
 .c {
     background-color: orange;
@@ -16,25 +16,25 @@ h1 {
 .cont1 {
     float: left;
     margin: 10px;
-    border: 5px solid rgb(176, 234, 253);
+    border: 1px solid rgb(176, 234, 253);
     background-color: rgb(176, 234, 253);
     padding: 15px;
 }
 .cont2 {
     float: left;
     margin: 10px;
-    border: 5px solid rgb(155, 253, 155);
+    border: 1px solid rgb(155, 253, 155);
     background-color: rgb(155, 253, 155);
     padding: 15px;
 }
 .cont3 {
     float: left;
     margin: 10px;
-    border: 5px solid rgb(252, 205, 119);
+    border: 1px solid rgb(252, 205, 119);
     background-color: rgb(252, 205, 119);
     padding: 15px;
 }
-@media (min-width: 992px) and (max-width: 2000px) {
+@media (min-width: 992px) and (max-width: 1500px) {
     .cont1{
         width: 31%;
     }
@@ -47,13 +47,13 @@ h1 {
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .cont1{
-        width: 46%;
+        width: 46.5%;
     }
     .cont2{
-        width: 46%;
+        width: 46.5%;
     }
     .cont3{
-        width: 94%;
+        width: 95%;
     }
 }
 @media (max-width: 767px) {
