@@ -57,10 +57,6 @@ section{
     background-size: cover;
     height: calc(100vh - 80px);
 }
-.main-content .box{
-    flex-basis: 50%;
-    padding: 10px 20px;
-}
 @media (max-width: 952px){
     label.logo{
         font-size: 30px;
@@ -68,6 +64,25 @@ section{
     }
     nav ul li a{
         font-size: 16px;
+    }
+    footer{
+        margin: 0;
+        padding: 0;
+        color: #d9d9d9;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        position: fixed;
+        bottom: fixed;
+        width: 100%;
+        background: #111;
+    }
+    .main-content{
+        display: flex;
+    }
+    .main-content .box{
+        flex-basis: 50%;
+        padding: 10px 20px;
+    }
 }
 @media (max-width: 858px){
     .checkbtn{
@@ -97,5 +112,23 @@ section{
     }
     #check:checked ~ ul{
         left: 0;
+    }
+    footer{
+        margin: 0;
+        padding: 0;
+        color: #d9d9d9;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        position: fixed;
+        bottom: fixed;
+        width: 100%;
+        background: #111;
+    }
+    .main-content{
+        display: flex;
+    }
+    .main-content .box{
+        flex-basis: 50%;
+        padding: 10px 20px;
     }
 }
