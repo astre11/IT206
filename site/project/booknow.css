@@ -61,6 +61,13 @@ a.feedback,a:hover{
         font-size: 16px;
 }
 @media (max-width: 858px){
+    label.logo{
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
     .checkbtn{
         display: block;
     }
